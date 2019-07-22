@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
@@ -14,7 +14,8 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, ReactiveFormsModule
+    // other imports ...
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
